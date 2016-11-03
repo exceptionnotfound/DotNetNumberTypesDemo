@@ -10,6 +10,10 @@ namespace DotNetNumberTypesDemo
     {
         static void Main(string[] args)
         {
+            DoubleArithmetic doubles = new DoubleArithmetic();
+            doubles.CalculateDoubles();
+
+            Console.ReadLine();
         }
     }
 }
