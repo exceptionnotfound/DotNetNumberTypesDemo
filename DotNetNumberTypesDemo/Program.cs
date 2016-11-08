@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace DotNetNumberTypesDemo
 {
+    //Code samples originally by Kathleen Dollard (@kathleendollard)
     class Program
     {
         static void Main(string[] args)

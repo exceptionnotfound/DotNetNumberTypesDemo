@@ -89,10 +89,6 @@ namespace DotNetNumberTypesDemo
             Single niceFactor = 30;
             double discount = maxDiscountPercent * (markupPercent / niceFactor);
             Console.WriteLine("Discount (double): {0:R}", discount);
-            //Assert.IsTrue(0 == discount);
-            //Assert.IsTrue(10 == discount);
-            //Assert.IsTrue(20 == discount);
-            //Assert.IsTrue(30 == discount);
         }
 
         private void DivisionTest2()
@@ -102,10 +98,6 @@ namespace DotNetNumberTypesDemo
             int niceFactor = 30;
             int discount = maxDiscountPercent * (markupPercent / niceFactor);
             Console.WriteLine("Discount (int): {0}", discount);
-            //Assert.IsTrue(0 == discount);
-            //Assert.IsTrue(10 == discount);
-            //Assert.IsTrue(20 == discount);
-            //Assert.IsTrue(30 == discount);
         }
     }
 }
